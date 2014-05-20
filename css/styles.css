@@ -1,0 +1,163 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+/*typography*/
+
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3em;
+	margin: 15px 10px 0px 10px;
+	color: #00a1e1;
+}
+
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	color: #ed1c24;
+	float:right;
+	margin: 20px;
+}
+
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	font-style: bold;
+	color: #193b7b;
+	margin: 15px 10px 0px 10px;
+}
+
+h5{
+	font-family: 'Open Sans Condensed';
+	color: #ed1c24;
+	margin: 0px 5px 5px 10px;
+}
+
+p{
+	font-family: 'Open Sans Condensed';
+	color: #00a1e1;
+	margin: 15px 5px 5px 10px;
+}
+
+a{
+	font-family: 'Open Sans Condensed';
+	font-style: italic;
+	color: #B10000;
+	font-size: 1.5em;
+	margin: 10px;
+}
+/*image*/
+img{
+	width: 300px;
+	margin: 50px;
+
+}
+.symbol {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*colors*/
+.color-1,
+.color-2,
+.color-4{
+	border: 2px solid #000;
+	height:100px;
+	float: left;
+	margin: 10px;
+	width: 100px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black
+}
+
+.color-1{
+	background: #ed1c24;
+}
+
+.color-2{
+	background: #193b7b;
+}
+
+.color-4{
+	background: #00a1e1;
+}
+
+/*texture*/
+.tex-1,
+.tex-2,
+.tex-3{
+	border: 2px solid #000;
+	height:100px;
+	float: left;
+	margin: 10px;
+	width: 100px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black
+}
+
+.tex-1{
+	background: url("../img/green_cup.png");
+}
+
+.tex-2{
+	background: url("../img/cartographer.png");
+}
+
+.tex-3{
+	background: url("../img/skulls.png");
+}
+
+/*body*/
+
+
+body{
+	background: url("../img/cartographer.png");
+}
+
+header{
+	background: #f1f1f1;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black
+}
+
+article section{
+	background: #f1f1f1;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black
+}
+
+hr{
+	padding: 1px;
+	background-color: #888c8d;
+}
+
+footer{
+	background: #f1f1f1;
+	padding: 10px 0px 10px 0px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black
+}
+
+
+/*hover*/
+a:link,
+a:visited {
+	color: #686a6b;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 30px;
+}
+
+
+/*show grid*/
+.showgrid{
+	background: url("../img/grid-bg.png") repeat-y
+}
+
+/* Diagnostic Styling */
+s
